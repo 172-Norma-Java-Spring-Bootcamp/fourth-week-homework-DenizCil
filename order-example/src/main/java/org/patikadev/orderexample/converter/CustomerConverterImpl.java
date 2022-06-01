@@ -21,7 +21,7 @@ public class CustomerConverterImpl implements CustomerConverter {
         customer.setGender(customerDTO.gender());
         customer.setPassword(customerDTO.password());
         customer.setCreatedAt(new Date());
-        customer.setCreatedBy("BaranBuyuk");
+        customer.setCreatedBy("");
 
         CustomerAddress customerAddress = new CustomerAddress();
         customerAddress.setPhoneNumber(customerDTO.customerAddress().phoneNumber());
